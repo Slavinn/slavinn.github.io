@@ -37,15 +37,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf4e3;
+  background-color: #163172;
   height: 11.6rem;
   padding: 0 4.7rem;
   overflow: hidden;
+  height: auto;
 }
 
 .logo {
-  width: 22rem;
-  height: 22rem;
+  width: 12rem;
+  height: 12rem;
 }
 
 .logo--large {
@@ -84,7 +85,8 @@ MAIN NAV
 
 .main-nav-link:link,
 .main-nav-link:visited {
-  color: black;
+  color: #fff;
+
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 500;
@@ -124,8 +126,7 @@ MAIN NAV
 
 .footer-box {
   display: flex;
-  align-content: center;
-  justify-content: space-around;
+  justify-content: center;
   padding: 6rem 0;
 }
 
@@ -137,6 +138,7 @@ MAIN NAV
 .icon-logo {
   width: 3rem;
   height: 3rem;
+  color: white;
 }
 
 .icon-box {
@@ -144,9 +146,14 @@ MAIN NAV
   font-weight: 500;
   transition: all 0.3;
   align-self: center;
+  margin-left: 5rem;
 }
 
 .icon-box a {
   color: black;
   text-decoration: none;
+}
+
+.icon-box p {
+  color: white;
 }

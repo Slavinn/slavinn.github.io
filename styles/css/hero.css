@@ -14,7 +14,8 @@ FONT-SIZE:
 
 .hero-section {
   margin: 0 auto;
-  background-color: #fdf2e9;
+  background-color: #163172;
+  color: #fff;
   padding: 4.7rem 0 9.3rem 0;
   /* width: 65rem;
   height: auto; */
@@ -42,13 +43,14 @@ FONT-SIZE:
 }
 
 .hero-description {
+  text-align: center;
   font-size: 2rem;
   line-height: 1.6;
   align-self: center;
 }
 
 .hero-img {
-  border-radius: 35%;
+  border-radius: 0 0 35% 35%;
 }
 
 .hero-img::after {
