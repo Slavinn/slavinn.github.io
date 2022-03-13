@@ -1,0 +1,40 @@
+.project-section {
+  margin: 0 auto;
+  padding: 4.7rem 0 9.3rem 0;
+  background-color: black;
+}
+
+.project-heading {
+  font-size: 4.7rem;
+  margin-bottom: 4.7rem;
+  text-align: center;
+}
+
+.projects {
+  padding: 0 10rem 0 10rem;
+  row-gap: 10rem;
+  column-gap: 5rem;
+}
+
+.project-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-text-box {
+  font-size: 1.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-img-box:nth-child(odd) {
+  justify-self: flex-end;
+}
+
+.project-img-box:nth-child(even) {
+  justify-self: flex-end;
+}

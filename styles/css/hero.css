@@ -1,0 +1,58 @@
+/* 
+COLOR PALETTE:
+#A5A5A5 8.5 background
+#9B9489 #7 background
+#BEB5A6 #10 background
+#EADEBD #15 background
+#FDF4E3 #19 background
+*/
+
+/* 
+FONT-SIZE:
+1rem / 1.25 / 1.5 / 2 / 2.5 / 3.0 / 3.8 / 4.7 / 6 / 7.4 / 9.3 /11.6
+*/
+
+.hero-section {
+  margin: 0 auto;
+  background-color: #fdf2e9;
+  padding: 4.7rem 0 9.3rem 0;
+  /* width: 65rem;
+  height: auto; */
+}
+
+.hero {
+  margin: 0 auto;
+  width: 65rem;
+  height: auto;
+  padding: 0 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.heading-primary {
+  font-size: 7.4rem;
+  margin-bottom: 4.7rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  align-self: center;
+}
+
+.hero-img {
+  border-radius: 35%;
+}
+
+.hero-img::after {
+  content: "";
+  display: block;
+  position: relative;
+}
