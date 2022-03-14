@@ -33,6 +33,20 @@ body {
   line-height: 1.6;
 }
 
+.diagonal-box {
+  background-image: repeating-linear-gradient(
+    180deg,
+    #3dff020c,
+    75%,
+    #00000000
+  );
+  transform: skewY(-11deg);
+}
+
+.diagonal-box-cancel {
+  transform: skewY(11deg);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
